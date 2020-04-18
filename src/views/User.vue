@@ -1,10 +1,12 @@
 <template>
-  <h1>Show event #{{ id }}</h1>
+  <div>
+    <h1>Usuario: {{ username }}</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  props: ['id']
+  props: ['username']
 }
 </script>
 
